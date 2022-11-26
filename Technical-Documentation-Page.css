@@ -1,0 +1,33 @@
+body {
+    background: #ffffff;
+    margin: 0;
+}
+.navbar {
+    position: fixed;
+    width: 300px;
+    min-width: 290px;
+    height: 100%;
+    border-right: #00161666 solid;
+    top: 0;
+    left: 0;
+}
+.header {
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    margin: 10px;
+}
+.navbar li {
+    list-style-type: none;
+}
+.links {
+    padding-left: 25px;
+    padding-top: 0;
+}
+.nav-link {
+    font-size: 18px;
+    text-decoration: none;
+    color: #565656;
+    font-family: sans-serif;
+}
