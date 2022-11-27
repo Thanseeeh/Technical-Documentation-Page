@@ -21,10 +21,10 @@
             <li><a class="nav-link" href="#Global variables">Global variables</a></li>
             <li><a class="nav-link" href="#Constants">Constants</a></li>
             <li><a class="nav-link" href="#Data types">Data types</a></li>
-            <li><a class="nav-link" href="#Iif...else statement">if...else statement</a></li>
+            <li><a class="nav-link" href="#if...else statement">if...else statement</a></li>
             <li><a class="nav-link" href="#while statement">while statement</a></li>
             <li><a class="nav-link" href="#Function declarations">Function declarations</a></li>
-            <li><a class="nav-link" href="#IReference">Reference</a></li>
+            <li><a class="nav-link" href="#Reference">Reference</a></li>
         </ul>
     </nav>
     <main class="main">
@@ -216,23 +216,31 @@
                 <p>After completing the third pass, the condition n < 3 is no longer true, so the loop terminates.</p>
             </article>
         </section>
-        <section>
-            <header></header>
-            <article>
-                <p></p>
+        <section class="main-section" id="Function declarations">
+            <header class="main-header">Function declarations</header>
+            <article class="main-article">
+                <p>A function definition (also called a function declaration, or function statement) consists of the function keyword, followed by:</p>
                 <ul>
-                    <li></li>
-                    <li></li>
+                    <li>The name of the function.</li>
+                    <li>A list of arguments to the function, enclosed in parentheses and separated by commas.</li>
+                    <li>The JavaScript statements that define the function, enclosed in curly brackets, { }.</li>
                 </ul>
+                <p>For example, the following code defines a simple function named square:</p>
+                <div class="partition">
+                    <p>function square(number) { return number * number; }</p>
+                </div>
+                <p>The function square takes one argument, called number. The function consists of one statement that says to return the argument of the function (that is, number) multiplied by itself. The return statement specifies the value returned by the function.</p>
+                <div class="partition">
+                    <p>return number * number;</p>
+                </div>
+                <p>Primitive parameters (such as a number) are passed to functions by value; the value is passed to the function, but if the function changes the value of the parameter, this change is not reflected globally or in the calling function.</p>
             </article>
         </section>
-        <section>
-            <header></header>
-            <article>
-                <p></p>
+        <section class="main-section" id="Reference">
+            <header class="main-header">Reference</header>
+            <article class="main-article">
                 <ul>
-                    <li></li>
-                    <li></li>
+                    <li>All the documentation in this page is taken from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">MDN</a></li>
                 </ul>
             </article>
         </section>
